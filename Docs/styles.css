@@ -10,6 +10,7 @@ body {
 }
 
 .header {
+    margin: 10px;
     border-radius: 10px;
     background-color: #573737;
     color: white;
@@ -23,6 +24,7 @@ body {
 }
 
 .sidebar {
+    margin: 10px;
     border-radius: 10px;
     background-color: #354e36;
     width: 250px;
@@ -31,6 +33,7 @@ body {
 }
 
 .main-content {
+    margin: 10px;
     border-radius: 10px;
     background-color: #493649;
     flex: 1;
