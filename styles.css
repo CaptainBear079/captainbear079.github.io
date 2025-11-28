@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f;
+}
+
+.header {
+    background-color: #573737;
+    color: white;
+    text-align: left;
+    padding: 20px 20px;
+}
+
+.dynamic-content {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    background-color: #354e36;
+    width: 250px;
+    color: white;
+    padding: 20px;
+}
+
+.main-content {
+    background-color: #493649;
+    flex: 1;
+    padding: 20px;
+}
