@@ -10,12 +10,19 @@ body {
 }
 
 .header {
+    display: flex;
+    gap: 20px;
+    align-items: left;
     margin: 10px;
     border-radius: 10px;
     background-color: #573737;
     color: white;
     text-align: left;
     padding: 20px 20px;
+}
+
+.header a {
+    align-self: center;
 }
 
 .dynamic-content {
