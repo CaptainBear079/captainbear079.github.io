@@ -31,6 +31,9 @@ body {
 }
 
 .sidebar {
+    display: flex;
+    gap: 20px;
+    align-items: left;
     margin: 10px;
     border-radius: 10px;
     background-color: #354e36;
@@ -39,7 +42,9 @@ body {
     padding: 20px;
 }
 
-.main-content {
+.main-content {display: flex;
+    gap: 20px;
+    align-items: left;
     margin: 10px;
     border-radius: 10px;
     background-color: #493649;
